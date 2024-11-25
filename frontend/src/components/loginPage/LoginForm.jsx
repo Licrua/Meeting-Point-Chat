@@ -16,7 +16,7 @@ const LoginForm = () => {
 
   useEffect(() => {
     const storedUsers = JSON.parse(localStorage.getItem('username'));
-    const usernames = storedUsers.map((item) => item.name);
+    const usernames = storedUsers?.map((item) => item.name);
     if (storedUsers) {
       setUsersArray(usernames);
     }
