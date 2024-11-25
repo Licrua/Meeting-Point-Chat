@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "paths": {
+      "@components/*": ["components/*"],
+	  "@store/*": ["store/*"],
+      "@pages/*": ["pages/*"],
+      "@styles/*": ["styles/*"],
+      "@utils/*": ["utils/*"],
+      "@assets/*": ["assets/*"],
+      "@slices/*": ["slices/*"],
+	  "@images/*": ["assets/*"],
+	  "@data/*": ["data/*"]
+    }
+  },
+  "include": ["src", "test/example.spec.js"]
+}

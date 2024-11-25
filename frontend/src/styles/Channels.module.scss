@@ -1,0 +1,20 @@
+
+@import 'variables';
+
+.chat_channels {
+	min-height: 100vh;
+  max-height: 110vh;
+  font-size: 20px;
+  overflow-y: scroll;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+b {
+	font-family: 'Chalkduster, fantasy'
+}
+
+
+.chat_list {
+  max-height: 500px;
+}
+

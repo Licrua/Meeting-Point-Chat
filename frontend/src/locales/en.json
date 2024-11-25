@@ -1,0 +1,79 @@
+{
+  "title": "Chat ➲ Meeting Point",
+  "subTitle": "by Lucrua",
+  "languages": {
+	"ru": "Russian",
+	"en": "English"
+  },
+  "notFoundPage": {
+	"notFoundHeader": "It seems that you are lost on the Internet!(404)",
+	"notFoundText": "You want to go back to the main page?",
+	"notFoundReturnLink": "Come back now"
+  },
+  "homePage": {
+	"homePageText": "Hello, dear user!",
+	"homePageDescription": "Glad to see you!"
+},
+  "loginFields": {
+	"username": "Username",
+	"password": "Password",
+	"logIn": "Log In",
+	"account": "Don't have an account?",
+	"goToSignUp": "Go to Sign Up"
+},
+  "addChannel": "Add channel",
+  "changeLanguage": "Change Language",
+  "email": "Email",
+  "authorization": "Authorization",
+  "registration": "Registration",
+  "registrate": "Register",
+  "messages": {
+    "counter": {
+      "count_zero": "{{count}} messages",
+      "count_one": "{{count}} message",
+      "count_other": "{{count}} messages"
+    }
+  },
+  "exit": "Exit",
+  "instruction": "Specification of the site",
+  "channels": "Channels",
+  "deleteChannel": "Delete channel",
+  "renameChannel": "Rename channel",
+  "submit": "Submit",
+  "signUp": " Sign Up",
+  "cancel": "Cancel",
+  "create": "Create",
+  "delete": "Delete",
+  "rename": "Rename",
+  "text": "Write the message...",
+  "successfullyCreatedChannel": "The channel has been created",
+  "successfullyRenamedChannel": "The channel has been renamed",
+  "successfullyDeletedChannel": "The channel has been  deleted",
+  "errorOnRequest": "Connection error",
+  "validation": {
+    "username": "Must be between 3 and 20 characters",
+    "usernameMaxLength": "No more than 20 characters",
+    "usernameMinLength": "At least 3 characters long",
+    "requiredField": "Required field",
+    "existedUser": "User already exists",
+    "passwordMinLength": "At least 6 characters long",
+    "passwordMaxLength": "No more than 20 characters",
+    "confirmPassword": "Passwords must match",
+    "incorrectData": "Incorrect login or password",
+    "unuqieChannel": "Channel must be unique"
+  },
+  "signUpFields": {
+    "username": "Username",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "register": "Register",
+	"isRegistered": "Already registered?",
+  	"goToLogin": "Go to login!"
+  },
+  "footer": {
+    "copyright":  "© 2024 Licrua. All rights reserved.",
+	 "author": "About the Author",
+	 "project": "About the Project",
+	 "contacts": "Contacts"
+  }
+}

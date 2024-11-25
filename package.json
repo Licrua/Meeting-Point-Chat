@@ -1,0 +1,20 @@
+{
+  "name": "meeting_point_chat",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm run build --prefix frontend",
+    "start": "start-server -s ./frontend/build",
+    "postinstall": "cd frontend && npm ci",
+    "eslint": "eslint ."
+  },
+  "author": "Licrua",
+  "license": "ISC",
+  "dependencies": {
+    "@hexlet/chat-server": "^2.0.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
+  }
+}

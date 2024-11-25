@@ -1,0 +1,75 @@
+@import 'variables';
+@import 'mixins';
+
+.popUp_container {
+  position: fixed;
+  @include center-flex;
+  flex-direction: column;
+  top: 50%;
+  left: 50%;
+  width: $popup-width;
+  font-size: 20px;
+  @include border-radius($border-radius);
+  transform: translate(-50%, -50%);
+  height: $popup-height;
+  background-color: $popup-bg-color;
+  @include box-shadow($popup-shadow);
+  z-index: 1001;
+  border: 1px solid $border-color;
+  background-image: linear-gradient($popup-bg-color, $popup-bg-color), linear-gradient(to right, #bcb9be, #01071286);
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  padding: 4px;
+  gap: $gap;
+}
+
+.overlay {
+  position: fixed;
+  background-color: $overlay-color;
+  opacity: $overlay-opacity;
+  z-index: 900;
+  width: $maxWidth;
+  height: $maxHeight;
+  top: $position-zero;
+  left: $position-zero;
+}
+
+.close_button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.error {
+  color: $error-color;
+  font-size: $error-font-size;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 200;
+  margin: 3px;
+}
+
+.error_message {
+  color: $error-color;
+  font-size: 15px;
+  text-align: center;
+}
+
+.field {
+  width: $maxWidth;
+}
+
+.title {
+  font-size: $title-font-size;
+  color: $title-color;
+  text-shadow: 2px 2px 4px $title-shadow;
+}
+
+.title::after {
+  content: "";
+  display: block;
+  width: $maxWidth;
+  text-align: center;
+  height: 2px;
+  background-color: #ccc;
+  margin-top: 10px;
+}

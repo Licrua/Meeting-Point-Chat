@@ -1,0 +1,24 @@
+.error {
+  color: red;
+  font-size: 13px;
+}
+
+.authorization_container {
+  margin-top: 40px;
+  border-radius: 30px;
+  border: thin solid grey;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.2);
+  padding: 15px;
+}
+
+.link_to_signup {
+  text-decoration: none;
+  background-color: transparent;
+  outline: none;
+}
+
+.link_container {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+}/*# sourceMappingURL=Auth.module.css.map */

@@ -1,0 +1,11 @@
+@import 'variables';
+
+.background_video {
+	position: fixed;
+	top: $position-zero;
+	left: $position-zero;
+	width: $maxWidth;
+	height: $maxHeight;
+	object-fit: cover;
+	z-index: -1;
+  }

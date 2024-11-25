@@ -1,0 +1,86 @@
+{
+  "title": "Чат ➲ Точка Встречи",
+  "subTitle": "от Licrua",
+  "homePage": {
+	  "homePageText": "Здравствуй, уважаемый ползователь!",
+	  "homePageDescription": "Рад тебя видеть!"
+  },
+  "languages": {
+	"ru": "Русский",
+	"en": "Английский"
+  },
+  "notFoundPage": {
+	"notFoundHeader": "Кажется, вы потерялись в интернете! (404)",
+	"notFoundText": "Хотите вернуться на главную страницу?",
+	"notFoundReturnLink": "Вернуться сейчас"
+},
+  "secondaryInfo": {
+	"authorInfo": "Об Авторе",
+	"projectInfo": "Об Проекте"
+  },
+  "loginFields": {
+	"username": "Имя пользователя",
+	"password": "Пароль",
+	"logIn": "Вход",
+	"account": "Нет аккаунта?",
+	"goToSignUp": "Перейти к регистрации"
+  },
+  "addChannel": "Добавить канал",
+  "confirmPassword": "Подтвердите пароль",
+  "email": "Электронная почта",
+  "changeLanguage": "Сменить язык",
+  "authorization": "Вход",
+  "registration": "Регистрация",
+  "registrate": "Зарегистрироваться",
+  "messages": {
+    "counter": {
+      "count_zero": "{{count}} сообщений",
+      "count_one": "{{count}} сообщение",
+      "count_few": "{{count}} сообщения",
+      "count_many": "{{count}} сообщений"
+    }
+  },
+  "exit": "Выход",
+  "instruction": "Инструкция к сайту",
+  "channels": "Каналы",
+  "deleteChannel": "Удалить Канал",
+  "renameChannel": "Переименовать Канал",
+  "submit": "Отправить",
+  "account": "Нет аккаунта?",
+  "signUp": "Перейти к регистрации",
+  "cancel": "Отменить",
+  "create": "Добавить",
+  "delete": "Удалить",
+  "rename": "Переименовать",
+  "text": "Введите сообщение...",
+  "successfullyCreatedChannel": "Канал создан",
+  "successfullyRenamedChannel": "Канал переименован",
+  "successfullyDeletedChannel": "Канал удален",
+  "errorOnRequest": "Ошибка соединения",
+  "validation": {
+    "username": "от 3 до 20 символов",
+    "usernameMaxLength": "Не больше 20 символов",
+    "usernameMinLength": "Не менее 3 символов",
+    "requiredField": "Обязательно поле",
+    "existedUser": "Такой пользователь уже существует",
+    "passwordMinLength": "не менее 6 символов",
+    "passwordMaxLength": "не больше 20 символов",
+    "confirmPassword": "Пароли должны совпадать",
+    "incorrectData": "Неверные имя пользователя или пароль",
+    "unuqieChannel": "Канал должен быть уникален"
+  },
+  "signUpFields": {
+    "username": "Имя пользователя",
+    "password": "Пароль",
+    "confirmPassword": "Подтвердите пароль",
+    "register": "Регистрация",
+	"isRegistered": "Уже зарегистрированы?",
+	"goToLogin": "Перейти к авторизации!"
+  },
+  "footer": {
+	"copyright":  "© 2024 Licrua. Все Права Защищены",
+	"author": "Об авторе",
+	"project": "Об Проекте",
+	"contacts": "Контакты"
+  }
+}
